@@ -14,9 +14,6 @@ import (
 //
 // Returns:
 //   - error: An error if the input slice has fewer than two elements.
-//
-// Note:
-//   - This function modifies the input slice directly.
 func HeapSort(numbers []int) error {
 	if len(numbers) == 0 {
 		return fmt.Errorf("invalid heap parameters: n %d, i %d, len(numbers) %d", 0, 0, len(numbers))
